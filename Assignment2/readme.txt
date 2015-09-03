@@ -4,4 +4,8 @@ For running program, two command line arguments are needed. One specifies x numb
 ->All the switches should be connected to each other
 ->Odd hosts can only talk to each other and even hosts can talk to each other
   E.g h1 should only be able to ping h3, h5 and h2 should be able to ping h4, h6
-->All the communication should be throttled to 1 mbps for odd hosts and 2 mbps for even hosts  
+->All the communication should be throttled to 1 mbps for odd hosts and 2 mbps for even hosts
+
+Steps to run script:
+sudo python script.py arg1 arg2
+after that you will be prompted with mininet prompt. One can see the list of added hosts and switches in topology. To see the list of ping information type 'pingall'. To see the list of links type 'net'. To exit type 'exit'
